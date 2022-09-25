@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import Layout, { SITE_TITLE } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 
@@ -9,7 +9,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{SITE_TITLE}</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>안녕하세요. 저는 한국의 너드 개발자 너드장이라고 합니다</p>
