@@ -4,7 +4,7 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const NAME = "장건우";
+const NAME = "장너드";
 const PROFILE_IMAGE_SIZE = 144;
 export const SITE_TITLE = "Next.js 샘플 웹사이트";
 
