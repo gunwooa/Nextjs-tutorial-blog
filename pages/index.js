@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
         <title>{SITE_TITLE}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>안녕하세요. 저는 한국의 너드 개발자 너드장이라고 합니다</p>
+        <p>안녕하세요. 저는 한국의 너드 개발자 너드장이라고 합니다 🚀</p>
         <p>
           (This is a sample website - you’ll be building a site like this on
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
